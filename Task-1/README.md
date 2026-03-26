@@ -39,6 +39,15 @@ Navigate to the path from where the pem file is downloaded
 3. ssh -i Mumbai-keypair.pem ubuntu@your-ec2-public-ip // ssh -i Mumbai-keypair.pem ubuntu@19.20.40.96
 4. whoami 
 5. cat /etc/os-release
+6. scp -i /home/ubuntu/screenshots/*  /home/ubuntu/Project-Submission/Task-1/Screenshots/
+7. git init
+8. git status
+9. git add Task-1/
+10. git commit -m "Added Task-1"
+11. git branch -M main
+12. git push origin main
+13. git remote -v
+14. git push origin main 
  
 ## Output
 
