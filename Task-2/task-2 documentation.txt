@@ -1,0 +1,31 @@
+Task-2 Docker Installation and Application Deployment 
+
+1. TO install the Docker 
+   --> curl https://get.docker.com/ | bash
+2. TO check Docker status 
+   --> sudo systemctl status docker
+3. suppose if we  installed the net-tools then by using the command
+   --> ifconfig we can check docker installation.
+4. Docker version 
+   -->  docker --version
+5. Adding docker to Ubuntu group
+   -->  sudo usermod -aG docker ubuntu
+6. Go to the Task-2 folder and here jut create the vi.html file and paste the  given html file and save it 
+7. Then create a Dockerfile using vi.Dockerfile and save and exit with :wq! 
+    FROM nginx:alpine
+    COPY index.html /usr/share/nginx/html/index.html
+    EXPOSE 80
+    CMD ["nginx", "-g", "daemon off;"] 
+8. Now we need to build the image using this command  
+   --> docker build -t  cwl-devops-app .
+9. we can see that created Images  :
+   -->  docker images
+10. To check  is our container is running successfully :
+   --> docker run -d -p 8000:80 cwl-devops-app
+11. We can see our containers are running successfully 
+    docker ps 
+12. we can check via externally hw our application is working 
+    --> http://13.235.114.142:8000/
+
+
+scp -i Mumbai-keypair.pem /c/Users/gowth/OneDrive/Pictures/Screenshots/task-2/* ubuntu@19.20.40.96:~/Project-Submission/Task-2/Screenshots/
