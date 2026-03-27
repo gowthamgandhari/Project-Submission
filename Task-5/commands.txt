@@ -1,0 +1,29 @@
+```bash
+# Update system
+sudo apt update
+
+# Install UFW
+sudo apt install ufw -y
+
+# Allow SSH only from your IP
+sudo ufw allow from 223.182.56.68 to any port 22
+
+# Allow HTTP
+sudo ufw allow 80
+
+# Allow application port
+sudo ufw allow 8000
+
+# Enable firewall
+sudo ufw enable
+
+# Check firewall status
+sudo ufw status verbose
+
+# Enable logging (for verification)
+sudo ufw logging on
+
+# Check logs
+sudo tail -f /var/log/ufw.log
+```
+
