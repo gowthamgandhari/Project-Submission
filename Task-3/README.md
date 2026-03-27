@@ -87,20 +87,24 @@ cat /opt/container-monitor/logs/monitor.log
 
 ```
 
-Sample Output:
+Sample Output: These are my Outputs 
 
-ubuntu@ip-19-20-41-225:~/Project-Submission/Task-3$ cat /opt/container-monitor/logs/monitor.log
-2026-03-27 07:22:41 | romantic_euclid | CPU: 0.00% | MEM: 3.406MiB / 3.725GiB
-2026-03-27 07:23:01 | romantic_euclid | CPU: 0.00% | MEM: 3.406MiB / 3.725GiB
-2026-03-27 07:24:01 | romantic_euclid | CPU: 0.00% | MEM: 3.406MiB / 3.725GiB
+ubuntu@ip-19-20-41-225:~/Project-Submission/Task-3$ cat /opt/container-monitor/logs/monitor.log  
+2026-03-27 07:22:41 | romantic_euclid | CPU: 0.00% | MEM: 3.406MiB / 3.725GiB  
+2026-03-27 07:23:01 | romantic_euclid | CPU: 0.00% | MEM: 3.406MiB / 3.725GiB  
+2026-03-27 07:24:01 | romantic_euclid | CPU: 0.00% | MEM: 3.406MiB / 3.725GiB  
+2026-03-27 07:25:01 | romantic_euclid | CPU: 0.00% | MEM: 3.406MiB / 3.725GiB  
+2026-03-27 07:26:01 | romantic_euclid | CPU: 0.00% | MEM: 3.406MiB / 3.725GiB  
+2026-03-27 07:27:01 | romantic_euclid | CPU: 0.00% | MEM: 3.406MiB / 3.725GiB  
+
 ---
 
 ##  Outcome
 
-* Successfully monitored Docker container resource usage
-* Logged CPU and memory usage with timestamps
-* Automated logging using cron job (runs every minute)
-* Logs stored in `/opt/container-monitor/logs/monitor.log`
+--> Successfully monitored Docker container resource usage
+--> Logged CPU and memory usage with timestamps
+--> Automated logging using cron job (runs every minute)
+--> Logs stored in `/opt/container-monitor/logs/monitor.log`
 
 ---
 
