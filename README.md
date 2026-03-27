@@ -98,20 +98,6 @@ Project-Submission/
   
 ---
 
-##  Demonstration Video  
-
-The project walkthrough includes:    
-
---> SSH key-based login  
---> Docker deployment  
---> Monitoring logs with timestamps  
---> User permission verification  
---> Firewall configuration and testing  
-
- Video Link: 
-
----
-
 ##  Conclusion  
 
 This project successfully demonstrates the implementation of essential DevOps practices.  
