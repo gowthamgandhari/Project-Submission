@@ -1,0 +1,12 @@
+Create user:
+sudo adduser monitoruser 
+
+Assign ownership:
+sudo chown -R monitoruser:monitoruser /opt/container-monitor
+
+Set permissions:
+sudo chmod -R 700 /opt/container-monitor
+
+Verify:
+su monitoruser
+cd /opt/container-monitor
