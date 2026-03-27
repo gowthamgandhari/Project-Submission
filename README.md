@@ -90,25 +90,25 @@ Secure firewall with controlled access
 ##  Project Structure
 
 
-Project-Submission/
-├── Task-1/
-├── Task-2/
-├── Task-3/
-├── Task-4/
-├── Task-5/
-└── README.md
-
+Project-Submission/  
+├── Task-1/  
+├── Task-2/  
+├── Task-3/  
+├── Task-4/  
+├── Task-5/  
+└── README.md  
+  
 ---
 
 ##  Demonstration Video
 
-The project walkthrough includes:
+The project walkthrough includes:  
 
-* SSH key-based login
-* Docker deployment
-* Monitoring logs with timestamps
-* User permission verification
-* Firewall configuration and testing
+--> SSH key-based login
+--> Docker deployment
+--> Monitoring logs with timestamps
+--> User permission verification
+--> Firewall configuration and testing
 
  Video Link: 
 
