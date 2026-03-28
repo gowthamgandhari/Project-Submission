@@ -1,21 +1,21 @@
-#  DevOps Internship Assignment – Project Submission
+#  DevOps Internship Assignment – Project Submission  
 
-##  Objective
+##  Objective  
 
-This project demonstrates core DevOps fundamentals including server setup, Docker deployment, monitoring, security, and firewall configuration.    
+This project demonstrates core DevOps fundamentals including server setup, Docker deployment, monitoring, security, and firewall configuration.      
 The objective is to deploy an application using Docker on AWS EC2 and implement monitoring, logging, and security best practices.   
 ---
 
 ## Architecture Diagram
 ---
 User  
- ⬇  
-AWS EC2 (Ubuntu Server)  
- ⬇  
+ |
+EC2 (Ubuntu Server)  
+ | 
 Docker Container (Application)  
- ⬇  
+ |  
 Monitoring Script (CPU / Memory)  
- ⬇  
+ |  
 Log Files
 
 ## Tools Used
