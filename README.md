@@ -2,9 +2,30 @@
 
 ##  Objective
 
-This project demonstrates core DevOps skills including server setup, containerization, monitoring, access control, and firewall configuration.
-
+This project demonstrates core DevOps fundamentals including server setup, Docker deployment, monitoring, security, and firewall configuration.  
+The objective is to deploy an application using Docker on AWS EC2 and implement monitoring, logging, and security best practices.  
 ---
+
+## Architecture Diagram
+---
+User  
+ ⬇  
+AWS EC2 (Ubuntu Server)  
+ ⬇  
+Docker Container (Application)  
+ ⬇  
+Monitoring Script (CPU / Memory)  
+ ⬇  
+Log Files 
+---
+
+## Tools Used
+- AWS EC2
+- Docker
+- Linux
+- Shell scripting
+- Cron
+- UFW
 
 ##  Tasks Overview  
 
@@ -20,17 +41,15 @@ This project demonstrates core DevOps skills including server setup, containeriz
 
 ### Task 2: Docker Installation & Deployment  
 
---> Installed Docker on server  
+--> Installed Docker on server    
 --> Created Dockerfile to host custom `index.html`  
 --> Built Docker image and ran container  
 --> Exposed application on port **8000**  
 
 we can Access Via Pubip:8000  
-  
-``  `
-http://13.203.41.15:8000  
-```  
 
+http://13.203.41.15:8000  
+ 
 Application successfully deployed using Docker  
   
 ---
@@ -44,12 +63,12 @@ Application successfully deployed using Docker
 --> Stored logs in:  
   
 
-/opt/container-monitor/logs/  
+/opt/container-monitor/logs/
 
 
 --> Automated using cron job (runs every minute)  
 
- Continuous container monitoring enabled  
+ Continuous container monitoring enabled.    
 
 ---
 
@@ -61,7 +80,7 @@ Application successfully deployed using Docker
 
  Only authorized user can access logs  
 
----
+---  
 
 ### Task 5: Firewall Configuration  
 
@@ -103,5 +122,5 @@ Project-Submission/
 This project successfully demonstrates the implementation of essential DevOps practices.  
 Including secure access, containerized deployment, automated monitoring, and network security.  
 
----
+---  
 
