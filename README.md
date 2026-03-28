@@ -2,8 +2,8 @@
 
 ##  Objective
 
-This project demonstrates core DevOps fundamentals including server setup, Docker deployment, monitoring, security, and firewall configuration.  
-The objective is to deploy an application using Docker on AWS EC2 and implement monitoring, logging, and security best practices.  
+This project demonstrates core DevOps fundamentals including server setup, Docker deployment, monitoring, security, and firewall configuration.    
+The objective is to deploy an application using Docker on AWS EC2 and implement monitoring, logging, and security best practices.   
 ---
 
 ## Architecture Diagram
@@ -16,8 +16,7 @@ Docker Container (Application)
  ⬇  
 Monitoring Script (CPU / Memory)  
  ⬇  
-Log Files 
----
+Log Files
 
 ## Tools Used
 - AWS EC2
