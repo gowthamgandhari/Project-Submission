@@ -10,15 +10,15 @@ The objective is to deploy an application using Docker on AWS EC2 and implement 
 
 Architecture Diagram  
 ---
-User
+User  
  ⬇  
-AWS EC2 (Ubuntu Server)
+AWS EC2 (Ubuntu Server)  
  ⬇  
-Docker Container (Application)
+Docker Container (Application)  
  ⬇  
-Monitoring Script (CPU / Memory)
+Monitoring Script (CPU / Memory)  
  ⬇  
-Log Files
+Log Files  
 
 ---
 
